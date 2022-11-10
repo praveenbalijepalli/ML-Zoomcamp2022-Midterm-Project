@@ -133,23 +133,23 @@ Since the model development involved data cleaning, data extraction, feature sel
     Bonus points for deploying the service to the cloud
   
 ##  Sample Input and Output:
-1. 
-  **Input:**  
-    Open sample input1.txt shared in this repository. The sample input is the text within the file. I had to put contents of sample input into a txt file because they're are interfering with the readme.md5 file.
+1. **Input:**  
+     Open sample input1.txt shared in this repository. The sample input is the text within the file. I had to put contents of sample input into a txt file because they're are interfering with the readme.md5 file.
     
-  **Output:** 
-    {
-     "label": "Bad"
-    }
+   **Output:** 
+     <pre>
+     {
+      "label": "Bad"
+     }
+    </pre>
+    
+2. **Input**
+     Open sample input2.txt shared in this repository. The sample input is the text within the file. I had to put contents of sample input into a txt file because they're are interfering with the readme.md5 file.
  
-2.
-  **Input**
-   Open sample input2.txt shared in this repository. The sample input is the text within the file. I had to put contents of sample input into a txt file because they're are interfering with the readme.md5 file.
- 
-  **Output**
-    {
-      "label": "Good"
-    }
+   **Output**
+     {
+       "label": "Good"
+     }
 
 ## Tools / Libraries
 <pre>
