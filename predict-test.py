@@ -11,7 +11,7 @@ url = "http://127.0.0.1:9696/predict"
  
     
 ### Test input 1
-test_data1 = test.sample(1, random_state=100) # Dropping label column because it should be the predicted output
+test_data1 = test.sample(1, random_state=100)  
 print("Test input data 1 with label to verify the predicted output: \n", test_data1)
 print("\n\n")
 
