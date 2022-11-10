@@ -9,14 +9,11 @@ import pickle
 
 # Import ML library and its modules
 import sklearn
+from sklearn.ensemble import RandomForestClassifier
 
 # Data Engineering
 from sklearn.feature_extraction import DictVectorizer
-
-# Import Classifier
-import xgboost as xgb
-from xgboost.sklearn import XGBClassifier
-
+ 
 # Import custom preprocessing utility functions
 from preprocessing import  data_extractor, remove_url_ip_content_features 
 

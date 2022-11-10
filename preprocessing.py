@@ -11,9 +11,6 @@ from urllib.parse import urlparse
 import sklearn
 from sklearn.ensemble import RandomForestClassifier
 
-import xgboost as xgb
-from xgboost.sklearn import XGBClassifier
-
 # Library for Dealing with imbalanced datasets
 import imblearn
 from imblearn.over_sampling import SMOTE
