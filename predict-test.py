@@ -19,7 +19,7 @@ test_data1.drop("label", axis=1, inplace=True) # Dropping label column because i
 dict_test_data1 = json.loads(test_data1.to_json(orient='records', lines=True))
 
 response1 = requests.post(url, json=dict_test_data1).json()
-print(json.dumps(response1, indent=2)
+print(response1)
 print("\n\n\n")
  
 ### Test input 2
@@ -31,5 +31,5 @@ test_data2.drop("label", axis=1, inplace=True) # Dropping label column because i
 dict_test_data2 = json.loads(test_data2.to_json(orient='records', lines=True))
  
 response2 = requests.post(url, json=dict_test_data2).json()
-print(json.dumps(response2, indent=2)
+print(response2)
 print("\n\n\n")
