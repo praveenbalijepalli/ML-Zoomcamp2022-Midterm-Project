@@ -132,7 +132,7 @@ Since the model development involved data cleaning, data extraction, feature sel
  Put your model into a web service and deploy it locally with Docker
     Bonus points for deploying the service to the cloud
   
-####  Sample Input and Output:
+##  Sample Input and Output:
 1. 
   **Input:**  
     Open sample input1.txt shared in this repository. The sample input is the text within the file. I had to put contents of sample input into a txt file because they're are interfering with the readme.md5 file.
@@ -151,7 +151,7 @@ Since the model development involved data cleaning, data extraction, feature sel
       "label": "Good"
     }
 
-#### Tools / Libraries
+## Tools / Libraries
 <pre>
 Language                : Python
 Virtual Environment     : Anaconda
