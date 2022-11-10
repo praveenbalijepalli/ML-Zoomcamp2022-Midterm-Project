@@ -137,20 +137,22 @@ Since the model development involved data cleaning, data extraction, feature sel
      Open sample input1.txt shared in this repository. The sample input is the text within the file. I had to put contents of sample input into a txt file because they're are interfering with the readme.md5 file.
     
    **Output:** 
-     <pre>
-     {
-      "label": "Bad"
-     }
-    </pre>
+       <pre>
+       {
+        "label": "Bad"
+       }
+      </pre>
     
 2. **Input**
      Open sample input2.txt shared in this repository. The sample input is the text within the file. I had to put contents of sample input into a txt file because they're are interfering with the readme.md5 file.
  
    **Output**
-     {
-       "label": "Good"
-     }
-
+       <pre>
+       {
+         "label": "Good"
+       }
+      </pre>
+      
 ## Tools / Libraries
 <pre>
 Language                : Python
